@@ -14,5 +14,12 @@ public class Enem {
         nota1 = input.nextFloat();
         nota2 = input.nextFloat();
         nota3 = input.nextFloat();
+        if(nota1>nota2 && nota1>nota3){
+            if(nota2>nota3){
+                System.out.println("O Aluno " + nome3 + " possui a menor nota. Nota: " + nota3);
+            } else {
+
+            }
+        }
     }
 }
