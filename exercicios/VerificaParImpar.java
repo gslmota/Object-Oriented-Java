@@ -1,4 +1,5 @@
 //Implemente um programa em Java que leia um número inteiro e verifique se ele é par ou ímpar.
+package exercicios;
 import java.util.Scanner;
 public class VerificaParImpar {
     public static void main(String[] args){
