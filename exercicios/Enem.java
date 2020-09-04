@@ -26,12 +26,10 @@ public class Enem {
             } else{
                 System.out.println("O Aluno " + nome3 + " possui a menor nota. Nota: " + nota3);
             }
+        } else if(nota1>nota2){
+            System.out.println("O Aluno " + nome2 + " possui a menor nota. Nota: " + nota2);
         } else{
-            if(nota1>nota2){
-                System.out.println("O Aluno " + nome2 + " possui a menor nota. Nota: " + nota2);
-            } else{
-                System.out.println("O Aluno " + nome1 + " possui a menor nota. Nota: " + nota1);
-            }
+            System.out.println("O Aluno " + nome1 + " possui a menor nota. Nota: " + nota1);
         }
     }
 }
