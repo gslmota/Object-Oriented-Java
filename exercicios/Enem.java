@@ -18,8 +18,10 @@ public class Enem {
             if(nota2>nota3){
                 System.out.println("O Aluno " + nome3 + " possui a menor nota. Nota: " + nota3);
             } else {
-
+                System.out.println("O Aluno " + nome2 + " possui a menor nota. Nota: " + nota2);
             }
+        }else {
+            if()
         }
     }
 }
