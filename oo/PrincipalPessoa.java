@@ -10,7 +10,7 @@ public class PrincipalPessoa {
         int mesNasc;
         int diaNasc;
         Scanner input = new Scanner(System.in);
-        for(int i = 0; i < 2; i++){
+        for(int i = 1; i <= 2; i++){
             System.out.println("Digite o ano de nascimento da pessoa " + i);
             anoNasc = input.nextInt();
             System.out.println("Digite o mês de nascimento da pessoa " + i);
@@ -20,7 +20,7 @@ public class PrincipalPessoa {
             pessoa[i].armazenarIdade(anoNasc, mesNasc, diaNasc);
         }
 
-        for(int i = 0; i < 2; i++){
+        for(int i = 1; i <= 2; i++){
             pessoa[i].imprimirIdade();
         }
     }
