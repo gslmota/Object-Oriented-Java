@@ -15,7 +15,7 @@ public class Matematica {
     }
 
     public int calculaQuadrado(int n1) {
-        int quadrado = this.n1 * this.n2;
+        int quadrado = this.n1 * this.n1;
         return quadrado;
     }
 }
