@@ -1,21 +1,21 @@
 package oo;
-
 public class Matematica {
     int n1, n2;
-    public int soma(n1, n2){
-        int soma = this.n1 + this.n2;
-        return " A soma é: " + soma;
+    public int soma(int n1, int n2){
+        int som = this.n1 + this.n2;
+        return som;
     }
 
-    public int verificaImpar(n1){
-        if(n % 2 == 0){
+    public boolean verificaImpar(int n1){
+        if(this.n1 % 2 == 0){
             return false;
         } else{
             return true;
         }
     }
 
-    public int calculaQuadrado(n1) {
-        return n1 * n1;
+    public int calculaQuadrado(int n1) {
+        int quadrado = this.n1 * this.n2;
+        return quadrado;
     }
 }

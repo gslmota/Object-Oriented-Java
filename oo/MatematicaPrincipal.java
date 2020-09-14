@@ -12,6 +12,9 @@ public class MatematicaPrincipal {
         System.out.println("Digite 2 numeros: ");
         numero1.n1 = input.nextInt();
         numero1.n2 = input.nextInt();
-        numero1.soma();
+        System.out.println( "A soma é " + numero1.soma(numero1.n1, numero1.n2));
+
+        // Validar Ímpar
+        System
     }
 }
