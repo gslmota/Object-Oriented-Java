@@ -15,6 +15,9 @@ public class MatematicaPrincipal {
         System.out.println( "A soma é " + numero1.soma(numero1.n1, numero1.n2));
 
         // Validar Ímpar
-        System
+        System.out.println("Digite um número: ");
+        numero2.n1 = input.nextInt();
+        boolean valor = numero2.verificaImpar(numero2.n1)
+        if(valor == True)
     }
 }
