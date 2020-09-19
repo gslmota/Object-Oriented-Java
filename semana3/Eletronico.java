@@ -17,5 +17,24 @@ public class Eletronico {
         this.preco = preco;
         this.tempoDeUso = tempoDeUso;
     }
-    
+
+    public Eletronico(String cor, float preco,float peso){
+        this.cor = cor;
+        this.peso = peso;
+        this.preco = preco;
+    }
+
+    public Eletronico(String cor, int tempoDeUso){
+        this.cor = cor;
+        this.tempoDeUso = tempoDeUso;
+    }
+
+    public Eletronico(String cor, float preco){
+        this.cor = cor;
+        this.preco= preco;
+    }
+
+    public Eletronico(String cor){
+        this.cor = cor;
+    }
 }
