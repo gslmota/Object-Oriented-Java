@@ -1,5 +1,5 @@
 // Gabriel Sávio de Lima Mota
-package oo;
+package semana2;
 public class Pessoa {
     // Atributos
     int anoNascimento;
