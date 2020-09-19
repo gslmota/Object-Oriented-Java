@@ -10,9 +10,7 @@ public class PrincipalEletronico {
         Eletronico eletronic5 = new Eletronico('azul escuro', 2223);
 
         // Exibir as informações
-        public void imprimirInformações (){
-            
-        }
+       
 
 
 

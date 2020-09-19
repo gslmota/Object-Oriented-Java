@@ -39,6 +39,11 @@ public class Eletronico {
     }
 
     // Métodos
+    public void imprimirInformações(){
+        System.out.println("A cor é: " + this.cor);
+        System.out.println("O preço é: " + this.preco);
+        System.out.println("O peso é: " + this.peso);
+        System.out.println("O Tempo de Uso é: " + this.tempoDeUso);
+    }
 
-    
 }
