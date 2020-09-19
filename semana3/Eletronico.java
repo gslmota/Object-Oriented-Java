@@ -10,7 +10,12 @@ public class Eletronico {
     String cor;
     float preco, peso;
     int tempoDeUso;
-
-    
+    // Construtores
+    public Eletronico(String cor, float preco,float peso, int tempoDeUso){
+        this.cor = cor;
+        this.peso = peso;
+        this.preco = preco;
+        this.tempoDeUso = tempoDeUso;
+    }
     
 }
