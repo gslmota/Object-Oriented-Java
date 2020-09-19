@@ -1,2 +1,3 @@
 Imaginemos um fábrica de ração que funciona todo dia das 7 as 17.
 A todo momento em que se inicia a produção diaria, deve-se zerar a quantidade de sacos produzidos.
+Além disso devemos zerar tambem os 
