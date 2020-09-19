@@ -37,4 +37,8 @@ public class Eletronico {
     public Eletronico(String cor){
         this.cor = cor;
     }
+
+    // Métodos
+
+    
 }
