@@ -11,7 +11,7 @@ public class Eletronico {
     float preco, peso;
     int tempoDeUso;
     // Construtores
-    public Eletronico(String cor, float preco,float peso, int tempoDeUso){
+    public Eletronico(String cor, float preco, float peso, int tempoDeUso){
         this.cor = cor;
         this.peso = peso;
         this.preco = preco;
