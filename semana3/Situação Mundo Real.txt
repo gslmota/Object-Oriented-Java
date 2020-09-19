@@ -1,4 +1,5 @@
 Imaginemos um fábrica de ração que funciona todo dia das 7 as 17.
 A todo momento em que se inicia a produção diaria, deve-se zerar a quantidade de sacos produzidos.
 Além disso devemos zerar tambem os tipos de ração que foram produzidos.
-Colocar valores para as cargas que foram despachadas, etc
+Colocar valores para as cargas que foram despachadas, etc.
+O construtor iria no caso zerar os valores para que a produção podesse começar.
