@@ -8,17 +8,17 @@ package semana3;
 public class Eletronico {
     // Atributos
     String cor;
-    float preco, peso;
+    double preco, peso;
     int tempoDeUso;
     // Construtores
-    public Eletronico(String cor, float preco, float peso, int tempoDeUso){
+    public Eletronico(String cor, double preco, double peso, int tempoDeUso){
         this.cor = cor;
         this.peso = peso;
         this.preco = preco;
         this.tempoDeUso = tempoDeUso;
     }
 
-    public Eletronico(String cor, float preco,float peso){
+    public Eletronico(String cor, double preco,double peso){
         this.cor = cor;
         this.peso = peso;
         this.preco = preco;
@@ -29,7 +29,7 @@ public class Eletronico {
         this.tempoDeUso = tempoDeUso;
     }
 
-    public Eletronico(String cor, float preco){
+    public Eletronico(String cor, double preco){
         this.cor = cor;
         this.preco= preco;
     }
