@@ -10,11 +10,18 @@ public class PrincipalEletronico {
         Eletronico eletronic5 = new Eletronico("azul escuro", 2223);
 
         // Exibir as informações
-        
+       System.out.println("Objeto 1");
        eletronic1.imprimirInformações();
+
+       System.out.println("Objeto 2");
        eletronic2.imprimirInformações();
+
+       System.out.println("Objeto 3");
        eletronic3.imprimirInformações();
+
+       System.out.println("Objeto 4");
        eletronic4.imprimirInformações();
+
        eletronic5.imprimirInformações();
 
        
