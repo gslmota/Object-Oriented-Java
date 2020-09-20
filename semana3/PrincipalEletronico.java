@@ -7,7 +7,7 @@ public class PrincipalEletronico {
         Eletronico eletronic2 = new Eletronico("preto");
         Eletronico eletronic3 = new Eletronico("branco", 3);
         Eletronico eletronic4 = new Eletronico("roxo", 1330, 3.4);
-        Eletronico eletronic5 = new Eletronico("azul escuro", 2223);
+        Eletronico eletronic5 = new Eletronico("azul escuro", 222.34);
 
         // Exibir as informações
        System.out.println("Objeto 1");
@@ -22,12 +22,7 @@ public class PrincipalEletronico {
        System.out.println("Objeto 4");
        eletronic4.imprimirInformações();
 
+       System.out.println("Objeto 5");
        eletronic5.imprimirInformações();
-
-       
-
-
-
-
     }
 }
