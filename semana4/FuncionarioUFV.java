@@ -1,10 +1,10 @@
 package semana4;
 public class FuncionarioUFV {
     // atributos
-    String nome;
-    int matricula;
-    Data date;
-    String cargo;
+    private String nome;
+    private int matricula;
+    private Data date;
+    private String cargo;
 
     public String getNome() {
         return nome;
