@@ -2,8 +2,9 @@ package semana4;
 
 public class Data {
     private String dia, mes , ano;
+    private String mesPagamento, anoPagamento;
 
-    public String getDia(){
+    public String getDia() {
         return dia;
     }
 
@@ -26,4 +27,21 @@ public class Data {
     public void setAno(String ano) {
         this.ano = ano;
     }
+
+    public String getMesPagamento() {
+        return mesPagamento;
+    }
+
+    public void setMesPagamento(String mesPagamento) {
+        this.mesPagamento = mesPagamento;
+    }
+
+    public String getAnoPagamento() {
+        return anoPagamento;
+    }
+
+    public void setAnoPagamento(String anoPagamento) {
+        this.anoPagamento = anoPagamento;
+    }
+    
 }
