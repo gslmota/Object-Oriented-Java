@@ -37,4 +37,7 @@ public class FolhaDePagamentoUFV {
         this.salarioMes = salarioMes;
     }
     
+    public void imprimirInformacoes(){
+        
+    }
 }
