@@ -7,7 +7,9 @@ public class Data {
     }
 
     public void setDia(int dia) {
-        this.dia = dia;
+        if(dia >= 1 && dia <= 31){
+            this.dia = dia;
+        }
     }
 
     public int getMes() {
@@ -15,7 +17,9 @@ public class Data {
     }
 
     public void setMes(int mes) {
-        this.mes = mes;
+        if(mes >= 1 && mes <= 12){
+            this.mes = mes;
+        }
     }
 
     public int getAno() {
