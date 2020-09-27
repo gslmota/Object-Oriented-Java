@@ -19,19 +19,20 @@ public class Principal {
             int ano = input.nextInt();
             Data data = new Data(dia, mes, ano);
             System.out.println("Digite o seu cargo");
+            input.nextLine();
             String cargo = input.nextLine();
             FuncionarioUFV funcionario = new FuncionarioUFV(nome, matricula, data, cargo);
             dados[i].setFuncionario(funcionario);
             System.out.println("Digite seu sálario mês: ");
             dados[i].setSalarioMes(input.nextDouble());
             System.out.println("Digite o dia de pagamento: ");
-            dados[i].getDataPagamento().setDia(input.nextInt());
+            dados[i].getDataPagamento().getDia().setdia
             System.out.println("Digite o mês de pagamento: ");
             dados[i].getDataPagamento().setMes(input.nextInt());
         }
 
         // Imprimindo os dados
-        for(int j = 0; j < dados.lenght; j ++){
+        for(int j = 0; j < 3; j ++){
             System.out.println("Folha de pagamento: " + j);
             dados[j].imprimirInformacoes();
         }
