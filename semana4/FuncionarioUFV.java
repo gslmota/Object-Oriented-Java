@@ -3,7 +3,7 @@ public class FuncionarioUFV {
     // atributos
     private String nome;
     private int matricula;
-    private Data date;
+    private Data data;
     private String cargo;
 
     public String getNome() {
@@ -23,11 +23,11 @@ public class FuncionarioUFV {
     }
 
     public Data getDate() {
-        return date;
+        return data;
     }
 
-    public void setDate(Data date) {
-        this.date = date;
+    public void setDate(Data data) {
+        this.data = data;
     }
 
     public String getCargo() {

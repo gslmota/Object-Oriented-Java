@@ -1,47 +1,31 @@
 package semana4;
 
 public class Data {
-    private String dia, mes , ano;
-    private String mesPagamento, anoPagamento;
+    private int dia, mes , ano;
 
-    public String getDia() {
+    public int getDia() {
         return dia;
     }
 
-    public void setDia(String dia) {
+    public void setDia(int dia) {
         this.dia = dia;
     }
 
-    public String getMes() {
+    public int getMes() {
         return mes;
     }
 
-    public void setMes(String mes) {
+    public void setMes(int mes) {
         this.mes = mes;
     }
 
-    public String getAno() {
+    public int getAno() {
         return ano;
     }
 
-    public void setAno(String ano) {
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
-    public String getMesPagamento() {
-        return mesPagamento;
-    }
-
-    public void setMesPagamento(String mesPagamento) {
-        this.mesPagamento = mesPagamento;
-    }
-
-    public String getAnoPagamento() {
-        return anoPagamento;
-    }
-
-    public void setAnoPagamento(String anoPagamento) {
-        this.anoPagamento = anoPagamento;
-    }
     
 }

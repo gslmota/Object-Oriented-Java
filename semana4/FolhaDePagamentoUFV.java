@@ -3,6 +3,7 @@ package semana4;
 public class FolhaDePagamentoUFV {
     private FuncionarioUFV funcionario;
     private float salarioMes;
+    private Data dataPagamento;
 
     public FuncionarioUFV getFuncionario() {
         return funcionario;
@@ -20,7 +21,21 @@ public class FolhaDePagamentoUFV {
         this.salarioMes = salarioMes;
     }
     
-    public void imprimirInformacoes(){
-        System.out.println();
+    public Data getDataPagamento() {
+        return dataPagamento;
     }
+
+    public void setDataPagamento(Data dataPagamento) {
+        this.dataPagamento = dataPagamento;
+    }
+    
+    public void imprimirInformacoes(){
+        System.out.println("Nome: " + funcionario.getNome());
+        System.out.println("Matrícula: " + funcionario.getMatricula());
+        System.out.println("Cargo: " + funcionario.getCargo());
+        System.out.println("Data de nascimento -> Dia: " + funcionario.getDate().getDia() + "Mês: "+ funcionario.getDate().getMes() + "Ano: " + funcionario.getDate().getAno();
+        System.out.println("Salário do mês: " + getSalarioMes());
+
+    }
+
 }
