@@ -37,5 +37,4 @@ public class FuncionarioUFV {
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
-
 }
