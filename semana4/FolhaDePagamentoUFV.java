@@ -4,12 +4,6 @@ public class FolhaDePagamentoUFV {
     private float salarioMes;
     private Data dataPagamento;
 
-    public FolhaDePagamentoUFV(FuncionarioUFV funcionario, float salarioMes, Data dataPagamento) {
-        this.funcionario = funcionario;
-        this.salarioMes = salarioMes;
-        this.dataPagamento = dataPagamento;
-    }
-
     public FuncionarioUFV getFuncionario() {
         return funcionario;
     }
