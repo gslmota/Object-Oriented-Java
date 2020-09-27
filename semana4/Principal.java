@@ -19,8 +19,11 @@ public class Principal {
             Data data = new Data(dia, mes, ano);
             System.out.println("Digite o seu cargo");
             String cargo = input.nextLine();
-            FuncionarioUFV funcionario = new FuncionarioUFV(nome, matricula, data, );
+            FuncionarioUFV funcionario = new FuncionarioUFV(nome, matricula, data, cargo);
             dados[i].setFuncionario(funcionario);
+            System.out.println("Digite seu sálario mês: ");
+            dados[i].setSalarioMes(input.nextDouble());
+            System.out.println("Digite o dia de pagamento: ");
 
         }
 

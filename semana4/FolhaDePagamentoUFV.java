@@ -1,7 +1,7 @@
 package semana4;
 public class FolhaDePagamentoUFV {
     private FuncionarioUFV funcionario;
-    private float salarioMes;
+    private double salarioMes;
     private Data dataPagamento;
     
     public FuncionarioUFV getFuncionario() {
@@ -12,11 +12,11 @@ public class FolhaDePagamentoUFV {
         this.funcionario = funcionario;
     }
 
-    public float getSalarioMes() {
+    public double getSalarioMes() {
         return salarioMes;
     }
 
-    public void setSalarioMes(float salarioMes) {
+    public void setSalarioMes(double salarioMes) {
         this.salarioMes = salarioMes;
     }
     
