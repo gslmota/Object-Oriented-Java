@@ -3,6 +3,8 @@ public class FolhaDePagamentoUFV {
     private FuncionarioUFV funcionario;
     private float salarioMes;
     private Data dataPagamento;
+    
+
     public FuncionarioUFV getFuncionario() {
         return funcionario;
     }

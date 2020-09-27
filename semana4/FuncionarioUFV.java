@@ -6,6 +6,13 @@ public class FuncionarioUFV {
     private Data data;
     private String cargo;
 
+    public FuncionarioUFV(String nome, int matricula, Data data, String cargo) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.data = data;
+        this.cargo = cargo;
+    }
+
     public String getNome() {
         return nome;
     }
