@@ -34,8 +34,7 @@ public class FolhaDePagamentoUFV {
         System.out.println("Cargo: " + funcionario.getCargo());
         System.out.println("Data de nascimento -> Dia: " + funcionario.getDate().getDia() + " Mês: "+ funcionario.getDate().getMes() + " Ano: " + funcionario.getDate().getAno());
         System.out.println("Salário do mês: " + getSalarioMes());
-        System.out.println("Dia de pagamento: " + getDataPagamento().getDia());
-        System.out.println("Mês de pagamento: " + getDataPagamento().getMes());
+        System.out.println("Mês de pagamento: " + getDataPagamento().getMes() + " Ano de pagamento: " + getDataPagamento().getAno());
     }
 
     

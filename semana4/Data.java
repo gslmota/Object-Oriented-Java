@@ -7,9 +7,10 @@ public class Data {
         this.mes = mes;
         this.ano = ano;
     }
-    public Data(int dia, int mes) {
-        this.dia = dia;
+
+    public Data(int mes, int ano) {
         this.mes = mes;
+        this.ano = ano;
     }
 
     public int getDia() {
