@@ -1,5 +1,4 @@
 package semana4;
-
 public class Data {
     private int dia, mes , ano;
 
@@ -26,6 +25,4 @@ public class Data {
     public void setAno(int ano) {
         this.ano = ano;
     }
-
-    
 }
