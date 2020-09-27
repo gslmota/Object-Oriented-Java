@@ -8,7 +8,7 @@ public class Principal {
         for(int i = 0; i < dados.length; i ++){
             dados [i] = new FolhaDePagamentoUFV();
             System.out.println("Digite o nome: ");
-            String nome= input.nextLine();
+            String nome = input.next();
             System.out.println("Digite a matricula: ");
             int matricula = input.nextInt();
             System.out.println("Digite o dia de nascimento: ");
@@ -19,14 +19,14 @@ public class Principal {
             int ano = input.nextInt();
             Data data = new Data(dia, mes, ano);
             System.out.println("Digite o seu cargo");
-            input.nextLine();
-            String cargo = input.nextLine();
+            String cargo = input.next();
             FuncionarioUFV funcionario = new FuncionarioUFV(nome, matricula, data, cargo);
             dados[i].setFuncionario(funcionario);
             System.out.println("Digite seu sálario mês: ");
             dados[i].setSalarioMes(input.nextDouble());
             System.out.println("Digite o dia de pagamento: ");
-            dados[i].getDataPagamento().getDia().setdia
+            dados[i].setDataPagamento(new Data(dia, mes, ano));
+            dados[i].getDataPagamento().setDia(input.nextInt());
             System.out.println("Digite o mês de pagamento: ");
             dados[i].getDataPagamento().setMes(input.nextInt());
         }
