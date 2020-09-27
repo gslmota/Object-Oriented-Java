@@ -24,11 +24,11 @@ public class Principal {
             dados[i].setFuncionario(funcionario);
             System.out.println("Digite seu sálario mês: ");
             dados[i].setSalarioMes(input.nextDouble());
-            System.out.println("Digite o dia de pagamento: ");
-            dados[i].setDataPagamento(new Data(dia, mes, ano));
-            dados[i].getDataPagamento().setDia(input.nextInt());
             System.out.println("Digite o mês de pagamento: ");
+            dados[i].setDataPagamento(new Data(mes, ano));
             dados[i].getDataPagamento().setMes(input.nextInt());
+            System.out.println("Digite o ano de pagamento: ");
+            dados[i].getDataPagamento().setAno(input.nextInt());
         }
 
         // Imprimindo os dados
