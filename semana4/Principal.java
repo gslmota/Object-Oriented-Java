@@ -4,6 +4,7 @@ public class Principal {
     public static void main(String[] args) {
         FolhaDePagamentoUFV [] dados = new FolhaDePagamentoUFV [3];
         Scanner input = new Scanner(System.in);
+        // Colentando os dados
         for(int i = 0; i < dados.length; i ++){
             dados [i] = new FolhaDePagamentoUFV();
             System.out.println("Digite o nome: ");
@@ -24,7 +25,9 @@ public class Principal {
             System.out.println("Digite seu sálario mês: ");
             dados[i].setSalarioMes(input.nextDouble());
             System.out.println("Digite o dia de pagamento: ");
-
+            dados[i].getDataPagamento().setDia(input.nextInt());
+            System.out.println("Digite o mês de pagamento: ");
+            dados[i].getDataPagamento().setMes(input.nextInt());
         }
 
     }
