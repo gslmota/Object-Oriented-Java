@@ -3,7 +3,12 @@ public class FolhaDePagamentoUFV {
     private FuncionarioUFV funcionario;
     private float salarioMes;
     private Data dataPagamento;
-    
+
+    public FolhaDePagamentoUFV(FuncionarioUFV funcionario, float salarioMes, Data dataPagamento) {
+        this.funcionario = funcionario;
+        this.salarioMes = salarioMes;
+        this.dataPagamento = dataPagamento;
+    }
 
     public FuncionarioUFV getFuncionario() {
         return funcionario;
@@ -38,4 +43,5 @@ public class FolhaDePagamentoUFV {
         System.out.println("Dia de pagamento: " + getDataPagamento().getDia());
         System.out.println("Mês de pagamento: " + getDataPagamento().getMes());
     }
+
 }
