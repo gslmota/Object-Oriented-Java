@@ -30,5 +30,10 @@ public class Principal {
             dados[i].getDataPagamento().setMes(input.nextInt());
         }
 
+        // Imprimindo os dados
+        for(int j = 0; j < dados.lenght; j ++){
+            System.out.println("Folha de pagamento: " + j);
+            dados[j].imprimirInformacoes();
+        }
     }
 }
