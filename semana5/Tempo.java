@@ -14,7 +14,7 @@ public class Tempo {
         this(00, 00, 00);
     }
 
-    public Tempo(int hora){
+    public Tempo(int hora, int minuto){
         this(hora, 00, 00);
     }
 
@@ -22,6 +22,9 @@ public class Tempo {
         this(0, 00, segundo);
     }
 
+    public Tempo(int segundo, int hora){
+        this(hora, segundo);
+    }
 
     // Get e Set
     public int getHora() {
