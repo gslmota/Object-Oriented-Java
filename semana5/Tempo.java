@@ -63,4 +63,10 @@ public class Tempo {
             System.out.println("Digite um segundo válido!");
         }
     }
+
+    // Métodos
+    @Override
+    public String toString() {
+        return "Tempo [hora=" + hora + ", minuto=" + minuto + ", segundo=" + segundo + "]";
+    }
 }
