@@ -3,11 +3,23 @@ public class Tempo {
     // Atributos
     private int hora, minuto, segundo;
     
-    // Construtor
+    // Construtores
     public Tempo(int hora, int minuto, int segundo) {
         this.hora = hora;
         this.minuto = minuto;
         this.segundo = segundo;
+    }
+
+    public Tempo(){
+        this(00, 00, 00);
+    }
+
+    public Tempo(int hora){
+        this(hora, 00, 00);
+    }
+
+    public Tempo(int segundo){
+        this(0, 00, segundo);
     }
 
 
