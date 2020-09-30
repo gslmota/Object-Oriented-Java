@@ -10,13 +10,18 @@ public class Tempo {
         this.segundo = segundo;
     }
 
+
     // Get e Set
     public int getHora() {
         return hora;
     }
 
     public void setHora(int hora) {
-        this.hora = hora;
+        if(hora >= 0 && hora <=24){
+            this.hora = hora;
+        } else{
+            System.out.println("Digite uma hora válida!");
+        }
     }
 
     public int getMinuto() {
@@ -24,7 +29,12 @@ public class Tempo {
     }
 
     public void setMinuto(int minuto) {
-        this.minuto = minuto;
+        if(minuto >= 0 && minuto <= 59){
+            this.minuto = minuto;
+        } else{
+            System.out.println("Digite um minuto válido!");
+        }
+        
     }
 
     public int getSegundo() {
@@ -32,6 +42,10 @@ public class Tempo {
     }
 
     public void setSegundo(int segundo) {
-        this.segundo = segundo;
+        if(segundo >= 0 && segundo <= 59){
+            this.segundo = segundo;
+        } else{
+            System.out.println("Digite um segundo válido!");
+        }
     }
 }
