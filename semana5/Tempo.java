@@ -23,7 +23,7 @@ public class Tempo {
     }
 
     public Tempo(int segundo, int hora){
-        this(hora, segundo);
+        this(hora, 00, segundo);
     }
 
     // Get e Set
