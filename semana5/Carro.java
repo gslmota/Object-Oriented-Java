@@ -40,5 +40,11 @@ public class Carro {
 	public void setTotalKm(int totalKm) {
 		this.totalKm = totalKm;
     }
+
+    // Métodos
+    public int acelerar(int totalKm){
+        int x = 0
+        x = 
+    }
 }
 
