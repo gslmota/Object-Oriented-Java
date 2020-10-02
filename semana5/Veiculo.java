@@ -1,5 +1,4 @@
 package semana5;
-
 public class Veiculo {
     // Atributos
     private String marca, modelo;
@@ -41,7 +40,7 @@ public class Veiculo {
 		this.totalKm = totalKm;
     }
 
-    // Métodos
+    // Métodos Sobrecarregados
     public void acelerar(String Modelo){
 		System.out.println(" Acelerando " + Modelo + " !");
 	}
@@ -49,6 +48,9 @@ public class Veiculo {
 	public void acelerar(){
 		System.out.println("Acelerando o Carro " + getModelo());
 	}
-	
+
+	public void acelerar(String Marca, String Modelo){
+		System.out.println("Acelerando o carro :" + Modelo + " da Marca: " + Marca);
+	}
 }
 
