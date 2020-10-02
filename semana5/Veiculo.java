@@ -1,13 +1,13 @@
 package semana5;
 
-public class Carro {
+public class Veiculo {
     // Atributos
     private String marca, modelo;
     private int ano,totalKm;
     
     // Construtor
      
-	public Carro(String marca, String modelo, int ano, int totalKm) {
+	public Veiculo(String marca, String modelo, int ano, int totalKm) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.ano = ano;
@@ -42,9 +42,8 @@ public class Carro {
     }
 
     // Métodos
-    public int acelerar(int totalKm){
-        int x = 0
-        x = 
+    public void acelerar(String Modelo){
+		System.out.println();
     }
 }
 
