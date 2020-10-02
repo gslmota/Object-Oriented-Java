@@ -43,7 +43,7 @@ public class Veiculo {
 
     // Métodos
     public void acelerar(String Modelo){
-		System.out.println();
+		System.out.println(" Acelerando " + Modelo + " !");
     }
 }
 
