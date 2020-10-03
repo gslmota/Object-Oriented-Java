@@ -8,3 +8,4 @@ public class Cadastro {
     Scanner input = new Scanner(System.in);
     nome = input.next();
     
+    
