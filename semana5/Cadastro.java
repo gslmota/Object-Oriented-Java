@@ -7,5 +7,5 @@ public class Cadastro {
     String email;
     Scanner input = new Scanner(System.in);
     nome = input.next();
-    
+    // parei aqui
     
