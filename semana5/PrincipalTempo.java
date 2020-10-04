@@ -12,6 +12,6 @@ public class PrincipalTempo {
         t2.toString();
         t3.toString();
         t4.toString();
-        t5.tostring()
+        t5.toString();
     }
 }
