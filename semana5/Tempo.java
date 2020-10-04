@@ -14,8 +14,7 @@ public class Tempo {
         this(00, 00, 00);
     }
 
-    public Tempo(int hora, int minuto){
-        this(hora, 00, 00);
+    public Tempo(Tempo tempo){
     }
 
     public Tempo(int segundo){
