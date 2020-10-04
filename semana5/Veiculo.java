@@ -15,6 +15,10 @@ public class Veiculo {
 	public Veiculo(String modelo){
 		this.modelo = modelo;
 	}
+	public Veiculo(String modelo, int ano){
+		this.modelo = modelo;
+		this.ano = ano;
+	}
 
     // get e set
     
