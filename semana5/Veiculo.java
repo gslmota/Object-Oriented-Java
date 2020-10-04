@@ -12,6 +12,9 @@ public class Veiculo {
 		this.ano = ano;
 		this.totalKm = totalKm;
 	}
+	public Veiculo(String modelo){
+		this.modelo = modelo;
+	}
 
     // get e set
     

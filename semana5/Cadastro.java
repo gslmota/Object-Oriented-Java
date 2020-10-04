@@ -9,3 +9,6 @@ public class Cadastro {
     nome = input.next();
     // parei aqui
     
+public boolean vefificaEmail(String email){
+    
+}
