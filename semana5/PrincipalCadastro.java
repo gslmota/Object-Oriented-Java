@@ -8,5 +8,7 @@ public class PrincipalCadastro {
         Scanner input = new Scanner(System.in);
         nome = input.next();
         email = input.next();
+        Cadastro cad = new Cadastro(nome, email);
+        cad.vefificaEmail(email);
     }
 }
