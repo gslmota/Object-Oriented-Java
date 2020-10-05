@@ -29,3 +29,4 @@ public class Cadastro {
         }
     }
 }
+// Exercicio disponibilizado pela rachel
