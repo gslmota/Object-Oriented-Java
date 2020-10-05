@@ -11,9 +11,14 @@ public boolean vefificaEmail(String email){
     String a, b;
     a = "@";
     b = ".";
+    if(email.lenght)
     if(email.indexOf(a){
-
-        return true;
+        if(email.indexOf(b)){
+            return true;
+        }
+        else {
+            return false;
+        }
     } else {
         return false;
     }
