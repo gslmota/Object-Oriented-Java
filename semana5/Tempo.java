@@ -15,6 +15,7 @@ public class Tempo {
     }
 
     public Tempo(Tempo tempo){
+        this(tempo.hora, tempo.minuto, tempo.segundo);
     }
 
     public Tempo(int segundo){
