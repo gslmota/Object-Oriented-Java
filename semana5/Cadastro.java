@@ -8,7 +8,11 @@ public Cadastro(String nome, String email){
 }
 
 public boolean vefificaEmail(String email){
-    if(email.indexOf("@" && ".")){
+    String a, b;
+    a = "@";
+    b = ".";
+    if(email.indexOf(a){
+
         return true;
     } else {
         return false;
