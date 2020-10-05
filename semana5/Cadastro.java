@@ -7,20 +7,24 @@ public Cadastro(String nome, String email){
     this.email = email;
 }
 
-public boolean vefificaEmail(String email){
+public void vefificaEmail(String email){
+    String tex = email;
     String a, b;
     a = "@";
     b = ".";
-    if(email.lenght)
-    if(email.indexOf(a){
-        if(email.indexOf(b)){
-            return true;
+    if(tex.toUpperCase().length() > 2){
+        if(tex.indexOf(a) > 0){
+            if(tex.indexOf(b) > 0){
+                System.out.println("Email e Nome Válidos");
+            }
+            else {
+               System.out.println("Email e Nome Inválidos");
+            }
+        } else {
+            System.out.println("Email e Nome Inválidos");
         }
-        else {
-            return false;
-        }
-    } else {
-        return false;
+    
+    } else{
+        System.out.println("Email e Nome Inválidos");
     }
-
 }
