@@ -1,5 +1,4 @@
 package semana6;
-
 public class FuncionarioMensalista extends Funcionario{
     private double salarioMensal;
 
@@ -11,5 +10,8 @@ public class FuncionarioMensalista extends Funcionario{
         this.salarioMensal = salarioMensal;
     }
 
-    
+    public FuncionarioMensalista(String nome, int matricula, double salarioMensal) {
+        super(nome, matricula);
+        this.salarioMensal = salarioMensal;
+    }
 }

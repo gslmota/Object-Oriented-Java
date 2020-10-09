@@ -1,7 +1,13 @@
 package semana6;
-
 public class FuncionarioHorista extends Funcionario{
+    
     private int horasTrabalhadas, valorHora;
+
+    public FuncionarioHorista(String nome, int matricula, int horasTrabalhadas, int valorHora) {
+        super(nome, matricula);
+        this.horasTrabalhadas = horasTrabalhadas;
+        this.valorHora = valorHora;
+    }
 
     public int getHorasTrabalhadas() {
         return horasTrabalhadas;
