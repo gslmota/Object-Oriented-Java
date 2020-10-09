@@ -24,4 +24,8 @@ public class FuncionarioHorista extends Funcionario{
     public void setValorHora(int valorHora) {
         this.valorHora = valorHora;
     }
+
+    public void imprimir(){
+        
+    }
 }
