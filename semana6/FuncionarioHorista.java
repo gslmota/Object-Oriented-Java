@@ -26,6 +26,6 @@ public class FuncionarioHorista extends Funcionario{
     }
 
     public void imprimir(){
-        // imprimir
+        // imprimir informações
     }
 }
