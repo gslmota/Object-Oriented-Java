@@ -26,6 +26,6 @@ public class Funcionario {
     }
 
     public void imprimir(){
-        
+        // imprimir dados
     }
 }
