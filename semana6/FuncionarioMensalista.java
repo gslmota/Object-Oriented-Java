@@ -14,4 +14,8 @@ public class FuncionarioMensalista extends Funcionario{
     public void setSalarioMensal(double salarioMensal) {
         this.salarioMensal = salarioMensal;
     }
+
+    public void imprimir(){
+        //
+    }
 }
