@@ -16,6 +16,7 @@ public class FuncionarioMensalista extends Funcionario{
     }
 
     public void imprimir(){
-        
+        super.imprimir();
+        System.out.printf("\n O sálario Mensal do Funcionario %s é %f .\n", this.nome, this.salarioMensal);
     }
 }
