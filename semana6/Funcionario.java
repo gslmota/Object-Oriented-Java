@@ -29,4 +29,9 @@ public class Funcionario {
         System.out.println("O nome do funcionário é: " + this.nome);
         System.out.println("A matrícula do funcionário é: " + this.matricula);
     }
+
+    public double calcularSalarioFinal(){
+        double salarioFinal = 0.0;
+        return salarioFinal;
+    }
 }
