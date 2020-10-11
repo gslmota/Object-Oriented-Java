@@ -20,5 +20,7 @@ public class FuncionarioMensalista extends Funcionario{
         System.out.printf("\n O sálario Mensal do Funcionario %s é %f .\n", this.nome, this.salarioMensal);
     }
 
-    public double calcularSalarioFinal(sa)
+    public double calcularSalarioFinal(){
+        return this.salarioMensal;
+    }
 }
