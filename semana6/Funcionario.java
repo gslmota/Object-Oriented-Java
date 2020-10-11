@@ -1,8 +1,8 @@
 // Gabriel Sávio de Lima Mota   6319
 package semana6;
 public class Funcionario {
-    private String nome;
-    private int matricula;
+    protected String nome;
+    protected int matricula;
     
     public Funcionario(String nome, int matricula) {
         this.nome = nome;
