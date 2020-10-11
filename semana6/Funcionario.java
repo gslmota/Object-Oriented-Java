@@ -26,6 +26,7 @@ public class Funcionario {
     }
 
     public void imprimir(){
-        // imprimir dados
+        System.out.println("O nome do funcionário é: " + this.nome);
+        
     }
 }
