@@ -3,12 +3,10 @@ package semana6;
 public class Funcionario {
     protected String nome;
     protected int matricula;
-    protected double salario;
     
     public Funcionario(String nome, int matricula) {
         this.nome = nome;
         this.matricula = matricula;
-        this.salario = 0.0;
     }
     
     public String getNome() {
@@ -26,14 +24,6 @@ public class Funcionario {
     public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
-    
-    public double getSalario() {
-        return salario;
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
-    }
 
     public void imprimir(){
         System.out.println("O nome do funcionário é: " + this.nome);
@@ -41,6 +31,6 @@ public class Funcionario {
     }
 
     public double calcularSalarioFinal(){
-        return this.salario;
+        return 0.0;
     }
 }

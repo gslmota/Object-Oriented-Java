@@ -29,4 +29,8 @@ public class FuncionarioHorista extends Funcionario{
         super.imprimir();
         System.out.printf("\n O valor por hora  do Funcionario %s é %d e o valor total de horas trabalhadas é %d.\n", this.nome, this.valorHora, this.horasTrabalhadas);
     }
+
+    public double calcularSalarioFinal(){
+        return this.horasTrabalhadas * this.valorHora;
+    }
 }
