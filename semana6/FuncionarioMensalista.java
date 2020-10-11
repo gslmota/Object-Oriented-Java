@@ -16,6 +16,6 @@ public class FuncionarioMensalista extends Funcionario{
     }
 
     public void imprimir(){
-        // imprimir informações
+        
     }
 }

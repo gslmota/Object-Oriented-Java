@@ -27,6 +27,6 @@ public class Funcionario {
 
     public void imprimir(){
         System.out.println("O nome do funcionário é: " + this.nome);
-        
+        System.out.println("A matrícula do funcionário é: " + this.matricula);
     }
 }
