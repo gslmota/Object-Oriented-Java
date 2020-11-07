@@ -8,8 +8,6 @@ public class CartaoDiaDosNamorados extends CartaoWeb {
 
    
     public String retornarMensagem(String remetente) {
-        return null;
+        return "Querida" + this.destinatario + "Feliz dia dos namorados! Espero que tenha sido o único cartão do dia dos namorados tenhaganhado nessa data!" + "De: "+ remetente;
     }
-    
-    
 }

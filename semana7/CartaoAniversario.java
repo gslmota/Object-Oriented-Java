@@ -7,7 +7,6 @@ public class CartaoAniversario extends CartaoWeb {
     }
 
     public String retornarMensagem(String remetente) {
-       return "ola";
+       return "Olá" + this.destinatario + "Feliz dia aniversário! Muitos anos de vida, muitas felicidades, você merece tudo de bom que existe nesse mundo!" + "De: "+ remetente;
     }
-    
 }

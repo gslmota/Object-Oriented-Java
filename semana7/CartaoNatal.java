@@ -7,6 +7,6 @@ public class CartaoNatal extends CartaoWeb {
     }
 
     public String retornarMensagem(String remetente) {
-        return null;
+        return "Feliz Natal" + this.destinatario + "Espero que tenha um excelente natal! Um Abraço!" + "De: "+ remetente;
     }
 }
