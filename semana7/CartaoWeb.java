@@ -1,4 +1,5 @@
 package semana7;
-public class CartaoWeb {
+public abstract class CartaoWeb {
+    protected String destinatario;
     
 }
