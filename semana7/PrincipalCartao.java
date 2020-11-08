@@ -17,9 +17,9 @@ public class PrincipalCartao {
 
         for(int i = 0; i <cartoes.length; i++){
             String remetente;
-            System.out.println("Digite o nome do remetente da mensagem: ");
+            System.out.println("\nDigite o nome do remetente da mensagem " + i + " :");
             remetente = input.next();
-            System.out.print(cartoes[i].retornarMensagem(remetente));
+            System.out.println(cartoes[i].retornarMensagem(remetente));
         }
     }
 }
